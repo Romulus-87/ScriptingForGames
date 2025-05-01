@@ -267,7 +267,7 @@ Transform:
   m_GameObject: {fileID: 742748893}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.86, y: 2.11, z: 0.08016282}
+  m_LocalPosition: {x: -2.64, y: 2.01, z: 0.08016282}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -403,9 +403,8 @@ GameObject:
   m_Component:
   - component: {fileID: 915709101}
   - component: {fileID: 915709103}
-  - component: {fileID: 915709102}
-  - component: {fileID: 915709105}
   - component: {fileID: 915709104}
+  - component: {fileID: 915709105}
   m_Layer: 0
   m_Name: CharacterArt
   m_TagString: Untagged
@@ -428,22 +427,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 742748896}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &915709102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 915709100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ab4a2e7d2249cb4a8a073b9766a2fe2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key1: 275
-  key2: 276
-  direction1: 0
-  direction2: 180
 --- !u!212 &915709103
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -505,9 +488,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 915709100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 714ad7253c9a1b74596723aefea90f08, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ab4a2e7d2249cb4a8a073b9766a2fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  key1: 275
+  key2: 276
+  direction1: 0
+  direction2: 180
 --- !u!95 &915709105
 Animator:
   serializedVersion: 5
@@ -518,7 +505,7 @@ Animator:
   m_GameObject: {fileID: 915709100}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 51547d05a7e699642aab6c11cb726d5f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2039ad2cd8f20684dae3cafd0f44e9ec, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
